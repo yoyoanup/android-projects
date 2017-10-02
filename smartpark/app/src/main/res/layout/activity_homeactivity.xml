@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yoyoanup.srollview.MainActivity"
+    android:background="#68EFAD"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="422dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingRight="50dp"
+        android:text="Welcome to"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:paddingTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Automated Parking System"
+        android:textSize="20dp"
+
+        android:textColor="#ffffff"
+        />
+
+    <EditText
+        android:id="@+id/mobile"
+        style="@android:style/Widget.Holo.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:hint="Enter Mobile Number"
+        android:inputType="textPersonName"
+        android:paddingTop="50dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:paddingTop="10dp"
+        android:inputType="textPassword"
+        android:hint="Enter Password"
+        android:lineSpacingExtra="1000dp"
+        android:layout_weight="0.06" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="40dp"
+        android:background="#FF5722"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#FF6F00"
+        android:text="Register"
+        android:onClick="Register"
+        />
+
+</LinearLayout>
