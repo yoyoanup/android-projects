@@ -16,4 +16,9 @@ public class Homeactivity extends AppCompatActivity {
         Intent registerintent =new Intent(this,registration.class);
         startActivity(registerintent);
     }
+
+    public void skipregister(View view) {
+        Intent skip=new Intent(this,skipreg.class);
+        startActivity(skip);
+    }
 }

@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -30,7 +31,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String st=e1.getText().toString();
         Uri site = Uri.parse(st);
         Intent i = new Intent(Intent.ACTION_VIEW,site);
-        startActivity(i);
+
+        if (i.resolveActivity(getPackageManager()) != null) {
+            startActivity(i);
+        } else {
+            Log.d("ImplicitIntents", "it can not be done");
+        }
+
 
     }
 
@@ -41,7 +48,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Uri location = Uri.parse("geo:0,0?q=" +st2);
         Intent i2=new Intent(Intent.ACTION_VIEW,location);
-        startActivity(i2);
+        if (i2.resolveActivity(getPackageManager()) != null) {
+            startActivity(i2);
+        } else {
+            Log.d("ImplicitIntents", "cann not resolve");
+        }
 
     }
 }

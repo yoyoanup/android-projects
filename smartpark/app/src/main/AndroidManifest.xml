@@ -17,7 +17,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".Homeactivity" />
-        <activity android:name=".registration"></activity>
+        <activity android:name=".registration" />
+        <activity android:name=".skipreg" />
+        <activity android:name=".delhi" />
+        <activity android:name=".noidaloc" />
+        <activity android:name=".gnoidaloc"></activity>
     </application>
 
 </manifest>
