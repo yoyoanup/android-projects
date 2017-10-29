@@ -58,14 +58,22 @@ public class skipreg extends AppCompatActivity implements AdapterView.OnItemSele
         if(spinner_item2.equalsIgnoreCase("delhi"))
         {
           Toast.makeText(getApplicationContext(),"ok",Toast.LENGTH_SHORT).show();
-            Intent i=new Intent(this,delhi.class);
-            startActivity(i);
+            Intent i1=new Intent(this,delhi.class);
+            startActivity(i1);
         }
-       else if(spinner_item2.equalsIgnoreCase(""))
+       else if(spinner_item2.equalsIgnoreCase("Noida"))
         {
-
+            Toast.makeText(getApplicationContext(),"ok",Toast.LENGTH_SHORT).show();
+            Intent i2=new Intent(this,noidaloc.class);
+            startActivity(i2);
         }
 
+        else if(spinner_item2.equalsIgnoreCase("Greater Noida"))
+        {
+            Toast.makeText(getApplicationContext(),"ok",Toast.LENGTH_SHORT).show();
+            Intent i3=new Intent(this,gnoidaloc.class);
+            startActivity(i3);
+        }
 
 
 

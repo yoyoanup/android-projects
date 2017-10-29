@@ -1,17 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.yoyoanup.smartpark.delhi">
+    android:background="#EEFF41"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="com.example.yoyoanup.smartpark.delhi"
+    android:weightSum="1">
+
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+
+         android:id="@+id/textView2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="136dp"
-        android:text="ye delhi hai meri jaan" />
-</RelativeLayout>
+        android:text="choose your region" />
+
+    <CheckBox
+        android:id="@+id/north"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="north" />
+
+    <CheckBox
+        android:id="@+id/south"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="south" />
+
+    <CheckBox
+        android:id="@+id/east"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="east" />
+
+    <CheckBox
+        android:id="@+id/west"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="west" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:onClick="ok"/>
+</LinearLayout>

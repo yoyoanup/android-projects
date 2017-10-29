@@ -21,7 +21,11 @@
         <activity android:name=".skipreg" />
         <activity android:name=".delhi" />
         <activity android:name=".noidaloc" />
-        <activity android:name=".gnoidaloc"></activity>
+        <activity android:name=".gnoidaloc" />
+        <activity android:name=".delhinorthloc" />
+        <activity android:name=".delhisouthloc" />
+        <activity android:name=".delhieastloc" />
+        <activity android:name=".delhiwestloc"></activity>
     </application>
 
 </manifest>

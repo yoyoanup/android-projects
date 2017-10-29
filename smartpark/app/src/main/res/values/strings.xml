@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">smartpark</string>
     <string-array name="string_array">
-
+        <item>Others</item>
         <item>delhi</item>
         <item>Noida</item>
         <item>Greater Noida</item>
@@ -11,7 +11,8 @@
         <item>Lucknow </item>
         <item>Patna city </item>
         <item>Kolkata </item>
-        <item>Others</item>
+
     </string-array>
-    />
+
+
 </resources>
