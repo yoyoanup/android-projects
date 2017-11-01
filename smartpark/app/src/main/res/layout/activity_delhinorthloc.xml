@@ -20,6 +20,7 @@
         />
 
     <RadioGroup
+        android:id="@+id/radiogroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
@@ -84,7 +85,8 @@
         android:id="@+id/button5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:layout_margin="70dp"
+        android:onClick="allocatespace"
         android:text="Button" />
 
 
