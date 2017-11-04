@@ -39,7 +39,7 @@ public class skipreg extends AppCompatActivity implements AdapterView.OnItemSele
 
         //String spinner_item =spinner.getSelectedItem().toString();
         String spinner_item = adapterView.getItemAtPosition(pos).toString();
-        Toast.makeText(getApplicationContext(),"selected"+" "+spinner_item,Toast.LENGTH_LONG).show();
+        //Toast.makeText(getApplicationContext(),spinner_item+" "+"selected",Toast.LENGTH_LONG).show();
     }
 
     @Override
@@ -57,22 +57,29 @@ public class skipreg extends AppCompatActivity implements AdapterView.OnItemSele
 
         if(spinner_item2.equalsIgnoreCase("delhi"))
         {
-          Toast.makeText(getApplicationContext(),"ok",Toast.LENGTH_SHORT).show();
+          //Toast.makeText(getApplicationContext(),"ok",Toast.LENGTH_SHORT).show();
             Intent i1=new Intent(this,delhi.class);
             startActivity(i1);
         }
        else if(spinner_item2.equalsIgnoreCase("Noida"))
         {
-            Toast.makeText(getApplicationContext(),"ok",Toast.LENGTH_SHORT).show();
+            //Toast.makeText(getApplicationContext(),"ok",Toast.LENGTH_SHORT).show();
             Intent i2=new Intent(this,noidaloc.class);
             startActivity(i2);
         }
 
         else if(spinner_item2.equalsIgnoreCase("Greater Noida"))
         {
-            Toast.makeText(getApplicationContext(),"ok",Toast.LENGTH_SHORT).show();
+           // Toast.makeText(getApplicationContext(),"ok",Toast.LENGTH_SHORT).show();
             Intent i3=new Intent(this,gnoidaloc.class);
             startActivity(i3);
+        }
+
+        else if(spinner_item2.equalsIgnoreCase("Gurugram"))
+        {
+            //Toast.makeText(getApplicationContext(),"ok",Toast.LENGTH_SHORT).show();
+            Intent i4=new Intent(this,gurugramloc.class);
+            startActivity(i4);
         }
 
 

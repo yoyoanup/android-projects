@@ -3,7 +3,6 @@ package com.example.yoyoanup.llog;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.TextView;
 
 import com.google.firebase.database.DataSnapshot;
@@ -36,18 +35,57 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void fire(View view) {
-        EditText e1=(EditText)findViewById(R.id.editText);
+        //EditText e1=(EditText)findViewById(R.id.editText);
+        //EditText e2=(EditText)findViewById(R.id.editText2);
+      /*  myRef=database.getReference("user");
+        myRef.child("name").push().setValue(e1.getText().toString());
+        myRef=database.getReference("user");
+        myRef.child("age").push().setValue(e2.getText().toString());
 
-        myRef=database.getReference("message");
-        String m=e1.getText().toString();
-        myRef.setValue(m);
 
         myRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                String value = dataSnapshot.getValue(String.class);
-                TextView text=(TextView)findViewById(R.id.tv);
-                text.setText(value);
+                Map<String,String> map=( Map<String,String>)dataSnapshot.getValue();
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });*/
+
+       /* myRef=database.getReference().child("space");
+        myRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                //EditText e1=(EditText)findViewById(R.id.editText);
+                //EditText e2=(EditText)findViewById(R.id.editText2);
+                String total_space=(String)dataSnapshot.child("ajadpur").getValue();
+                String total_space2=(String)dataSnapshot.child("jahangirpuri").getValue();
+                TextView tvv=(TextView)findViewById(R.id.tv);
+                //e1.setText(total_space);
+               // e2.setText(total_space2);
+                tvv.setText(total_space);
+
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });*/
+        myRef=database.getReference().child("use");
+
+        myRef.addValueEventListener(new ValueEventListener() {
+            @Override
+
+            public void onDataChange(DataSnapshot dataSnapshot) {
+
+                String total_space=(String)dataSnapshot.child("age").getValue();
+                String total_space2=(String)dataSnapshot.child("name").getValue();
+                TextView tvv=(TextView)findViewById(R.id.tv);
+                tvv.setText(total_space);
             }
 
             @Override
@@ -55,6 +93,5 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
     }
 }

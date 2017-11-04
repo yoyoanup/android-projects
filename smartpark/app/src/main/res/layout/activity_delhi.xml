@@ -12,7 +12,7 @@
 
 
     <TextView
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:textSize="30dp"
 
          android:id="@+id/textView2"
@@ -47,9 +47,9 @@
 
     <Button
         android:id="@+id/submit"
-        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Submit"
-        android:onClick="ok"/>
+        android:layout_marginTop="230dp"
+        android:onClick="ok"
+        android:text="Submit" />
 </LinearLayout>

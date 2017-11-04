@@ -24,8 +24,11 @@
         <activity android:name=".gnoidaloc" />
         <activity android:name=".delhinorthloc" />
         <activity android:name=".delhisouthloc" />
-        <activity android:name=".delhieastloc" />
-        <activity android:name=".delhiwestloc"></activity>
+        <activity android:name=".delhiwestloc" />
+        <activity android:name=".gurugramloc" />
+        <activity android:name=".confirmbooking" />
+        <activity android:name=".bookingcancel" />
+        <activity android:name=".eastdelhi"></activity>
     </application>
 
 </manifest>

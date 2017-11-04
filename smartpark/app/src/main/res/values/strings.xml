@@ -2,15 +2,11 @@
     <string name="app_name">smartpark</string>
     <string-array name="string_array">
         <item>Others</item>
-        <item>delhi</item>
-        <item>Noida</item>
+        <item>Delhi</item>
         <item>Greater Noida</item>
-        <item>Banglore</item>
-        <item>Patna city</item>
-        <item>Kanpur </item>
-        <item>Lucknow </item>
-        <item>Patna city </item>
-        <item>Kolkata </item>
+        <item>Gurugram</item>
+        <item>Noida</item>
+
 
     </string-array>
 

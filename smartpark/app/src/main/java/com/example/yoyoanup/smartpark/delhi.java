@@ -50,7 +50,7 @@ public class delhi extends AppCompatActivity {
             String c31=c3.getText().toString();
             if(c31.equalsIgnoreCase("east")) {
                 //Toast.makeText(getApplicationContext(),c31,Toast.LENGTH_SHORT).show();
-                Intent i2 = new Intent(this, delhieastloc.class);
+                Intent i2 = new Intent(this, eastdelhi.class);
                 startActivity(i2);
             }
         }

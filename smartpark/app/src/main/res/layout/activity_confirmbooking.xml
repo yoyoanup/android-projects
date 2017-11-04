@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#E0E0E0"
+    android:layout_margin="5dp"
+    tools:context="com.example.yoyoanup.smartpark.confirmbooking">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Booking confirm"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:background="#CDDC39"
+
+        />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Parking charge -10rs. for 4 Hours"
+        android:textSize="20dp"
+        android:background="#84FFFF"
+        android:layout_marginTop="20dp"
+
+
+        android:textColor="#9C27B0"
+        />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:text="Parking Venue:-"
+        android:textSize="20dp"
+        android:textColor="#D84315"
+        android:background="#69F0AE"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:background="#80DEEA"
+        android:textSize="15dp"
+        android:textColor="#D84315"
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_marginTop="260dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Give Feedback"
+        android:onClick="feedback"
+        />
+</LinearLayout>
