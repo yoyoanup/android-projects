@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">rajsthan</string>
+    <string-array name="string_array">
+        <item>Others</item>
+        <item>Delhi</item>
+        <item>Greater Noida</item>
+        <item>Gurugram</item>
+        <item>Noida</item>
+
+
+    </string-array>
+</resources>
