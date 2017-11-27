@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void userpaln(View view) {
-        Intent i=new Intent(this,services.class);
+        Intent i=new Intent(this,city.class);
         Toast.makeText(getApplicationContext(),"user entered",Toast.LENGTH_SHORT).show();
         startActivity(i);
 

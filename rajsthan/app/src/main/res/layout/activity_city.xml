@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-        android:orientation="vertical"
-    tools:context="com.example.yoyoanup.rajsthan.plan">
+    android:orientation="vertical"
+    tools:context="com.example.yoyoanup.rajsthan.services">
 
 
     <Spinner
@@ -18,9 +18,8 @@
     <Button
         android:id="@+id/city"
         android:layout_width="match_parent"
-        android:layout_marginTop="300dp"
         android:layout_height="wrap_content"
-        android:text="Submit city"
+        android:layout_marginTop="300dp"
         android:onClick="city"
-        />
+        android:text="Submit city" />
 </LinearLayout>

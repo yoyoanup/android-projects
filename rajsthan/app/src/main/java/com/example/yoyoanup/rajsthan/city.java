@@ -9,12 +9,13 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-public class plan extends AppCompatActivity {
+public class city extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_plan);
+        setContentView(R.layout.activity_city);
+
 
         Spinner spinner = (Spinner) findViewById(R.id.spinner);
         // Create ArrayAdapter using the string array and default spinner layout.
@@ -25,7 +26,7 @@ public class plan extends AppCompatActivity {
         adapter.setDropDownViewResource
                 (android.R.layout.simple_spinner_dropdown_item);
 
-       // Apply the adapter to the spinner.
+        // Apply the adapter to the spinner.
         if (spinner != null) {
             spinner.setAdapter(adapter);
 
@@ -51,33 +52,34 @@ public class plan extends AppCompatActivity {
         String spinner_item2 =spinnerr.getSelectedItem().toString();
 
 
-        if(spinner_item2.equalsIgnoreCase("delhi"))
+        if(spinner_item2.equalsIgnoreCase("chittorgarh" ))
         {
             //Toast.makeText(getApplicationContext(),"ok",Toast.LENGTH_SHORT).show();
-            Intent i1=new Intent(this,services.class);
+            Intent i1=new Intent(this,chittorgarhservices.class);
 
             startActivity(i1);
         }
-        else if(spinner_item2.equalsIgnoreCase("Noida"))
+        else if(spinner_item2.equalsIgnoreCase("jaipur"))
         {
             //Toast.makeText(getApplicationContext(),"ok",Toast.LENGTH_SHORT).show();
-            Intent i2=new Intent(this,services.class);
+            Intent i2=new Intent(this,chittorgarhservices.class);
             startActivity(i2);
         }
 
-        else if(spinner_item2.equalsIgnoreCase("Greater Noida"))
+        else if(spinner_item2.equalsIgnoreCase("udaipur"))
         {
             // Toast.makeText(getApplicationContext(),"ok",Toast.LENGTH_SHORT).show();
-            Intent i3=new Intent(this,services.class);
+            Intent i3=new Intent(this,chittorgarhservices.class);
             startActivity(i3);
         }
 
-        else if(spinner_item2.equalsIgnoreCase("Gurugram"))
+        else if(spinner_item2.equalsIgnoreCase("jaisalmer"))
         {
             //Toast.makeText(getApplicationContext(),"ok",Toast.LENGTH_SHORT).show();
-            Intent i4=new Intent(this,services.class);
+            Intent i4=new Intent(this,chittorgarhservices.class);
             startActivity(i4);
         }
 
     }
-}
+    }
+

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.yoyoanup.rajsthan">
+    package="com.example.yoyoanup.lv2">
 
     <application
         android:allowBackup="true"
@@ -16,13 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".chittorgarhservices" />
-        <activity android:name=".city" />
-        <activity android:name=".chittorgarhmonuments" />
-        <activity android:name=".chittorgarhhotels" />
-        <activity android:name=".chittorgarhresturents" />
-        <activity android:name=".chittorgarhtourgide" />
-        <activity android:name=".chittorgarhtransport" />
     </application>
 
 </manifest>
