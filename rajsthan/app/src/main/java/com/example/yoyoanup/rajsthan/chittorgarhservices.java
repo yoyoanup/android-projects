@@ -32,7 +32,7 @@ public class chittorgarhservices extends AppCompatActivity implements View.OnCli
         switch (view.getId())
         {
             case R.id.button1:
-                Intent i=new Intent(this,chittorgarhmonuments.class);
+                Intent i=new Intent(this,chhitorgarhmonuments.class);
                 startActivity(i);
                 break;
 

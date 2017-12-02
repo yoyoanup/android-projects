@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="str">Check the Item and Enter Quantity</string>
+    <string name="str1">Item</string>
+    <string name="str2">Quantity</string>
+    <string name="str3">Price</string>
+    <string name="str4">Pizza</string>
+    <string name="str5">150</string>
+    <string name="str6">Burger</string>
+    <string name="str7">80</string>
+    <string name="str8">Sandwich</string>
+    <string name="str9">60</string>
+    <string name="str10">Coke</string>
+    <string name="str11">50</string>
+    <string name="str12">Order</string>
+    <string-array name="string_array">
+        <item>others</item>
+        <item>udaipur</item>
+        <item>chittorgarh</item>
+        <item>jaipur</item>
+        <item>jaisalmer</item>
+    </string-array>
+
+
+</resources>

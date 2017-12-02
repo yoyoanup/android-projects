@@ -4,13 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#90CAF9"
     tools:context="com.example.yoyoanup.rajsthan.chittorgarhtransport">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="transport"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="179dp" />
+        android:ems="10"
+        android:inputType="textPersonName"
+       android:hint="Where to go?" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="find"
+        android:onClick="nearby"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Near by atm"
+        android:onClick="atm"/>
+
+
 </LinearLayout>

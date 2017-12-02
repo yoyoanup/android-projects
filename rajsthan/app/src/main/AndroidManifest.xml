@@ -18,11 +18,20 @@
         </activity>
         <activity android:name=".chittorgarhservices" />
         <activity android:name=".city" />
-        <activity android:name=".chittorgarhmonuments" />
         <activity android:name=".chittorgarhhotels" />
         <activity android:name=".chittorgarhresturents" />
         <activity android:name=".chittorgarhtourgide" />
         <activity android:name=".chittorgarhtransport" />
+        <activity android:name=".chhitorgarhmonuments" />
+        <activity android:name=".chittorgarhfort" />
+        <activity android:name=".hotelkirtiplaza" />
+        <activity android:name=".kirtiplazabooking" />
+        <activity android:name=".chokhidhani" />
+        <activity android:name=".chokhidhanimenu" />
+        <activity android:name=".anilkumar" />
+        <activity android:name=".bookguide" />
+        <activity android:name=".vendor" />
+        <activity android:name=".addhotel"></activity>
     </application>
 
 </manifest>

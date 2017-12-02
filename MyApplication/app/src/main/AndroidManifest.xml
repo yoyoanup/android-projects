@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yoyoanup.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Rajasthan hackathon"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".city" />
+        <activity android:name=".udaipurservices" />
+        <activity android:name=".udaipurtradition" />
+        <activity android:name=".udaipurmonuments" />
+        <activity android:name=".udaipurresturent" />
+        <activity android:name=".udaipurhotel" />
+        <activity android:name=".udaipurtourguide" />
+        <activity android:name=".udaipurtransport" />
+        <activity android:name=".udfest" />
+        <activity android:name=".udcuisines" />
+        <activity android:name=".udhandi" />
+        <activity android:name=".udtout" />
+        <activity android:name=".mewarfest" />
+        <activity android:name=".dalbati" />
+        <activity android:name=".badhanisarees" />
+        <activity android:name=".citypalace" />
+        <activity android:name=".hotelkirtiplaza" />
+        <activity android:name=".kirtiplazabooking" />
+        <activity android:name=".chokhidani" />
+        <activity android:name=".chokhidanimenu" />
+        <activity android:name=".anilkumar" />
+        <activity android:name=".bookanil" />
+        <activity android:name=".confirmbooking" />
+        <activity android:name=".bookingcancel"></activity>
+    </application>
+
+</manifest>

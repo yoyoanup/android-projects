@@ -21,4 +21,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
 
     }
+
+    public void vendor(View view) {
+        Intent i=new Intent(this,vendor.class);
+        startActivity(i);
+    }
 }
