@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "613386198829",
+    "firebase_url": "https://fbbfirebaseproject-f2e9e.firebaseio.com",
+    "project_id": "fbbfirebaseproject-f2e9e",
+    "storage_bucket": "fbbfirebaseproject-f2e9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613386198829:android:81ddbd6770a2ca7a",
+        "android_client_info": {
+          "package_name": "com.example.yoyoanup.fbb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613386198829-upc87g9cb9kg3jilb883po9dkjkr6a1v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yoyoanup.fbb",
+            "certificate_hash": "011795e822d2ac8ba225d1a9d2a0d7f37658caeb"
+          }
+        },
+        {
+          "client_id": "613386198829-rbero1c6qsrl36fif3ckv1tsdasb2o4v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgd1vqhewfhnoZwTdnLXdBxtfL88-xkkw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613386198829-rbero1c6qsrl36fif3ckv1tsdasb2o4v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "882285712250",
+    "firebase_url": "https://fbfirebaseproject-3292c.firebaseio.com",
+    "project_id": "fbfirebaseproject-3292c",
+    "storage_bucket": "fbfirebaseproject-3292c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882285712250:android:542209508b225aea",
+        "android_client_info": {
+          "package_name": "com.example.yoyoanup.fb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882285712250-n83urg3d2b8rk8j69j58nj8bq7ushqdh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yoyoanup.fb",
+            "certificate_hash": "011795e822d2ac8ba225d1a9d2a0d7f37658caeb"
+          }
+        },
+        {
+          "client_id": "882285712250-rrf1aoki7nmtekfi1doove6uqr22m8qr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABHs1fUSJofa_Mlfvpx2dZFLFK6fM76PU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882285712250-rrf1aoki7nmtekfi1doove6uqr22m8qr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
